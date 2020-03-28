@@ -1,3 +1,6 @@
+body > div > div > div[tabindex="-1"].app {
+  flex-direction: row-reverse; }
+
 body > div > div.app-wrapper-web:after {
   background-image: linear-gradient(to bottom, #2bb7f6, #ffffff, #ffffff, #ffffff, #baebf1);
   height: 100%; }

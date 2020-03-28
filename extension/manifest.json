@@ -9,5 +9,10 @@
             "css": ["live-messenger.css"],
             "matches": ["https://web.whatsapp.com/*"]
         }
-    ]
+    ],
+    "background": {
+      "scripts": [
+        "background.js"
+      ]
+    }
 }
