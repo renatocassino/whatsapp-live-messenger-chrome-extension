@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-live-messenger",
+  "version": "0.0.0",
+  "description": "Whatsapp theme like MSN Messenger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass --include-path src src/live-messenger.scss extension/live-messenger.css",
+    "dev": "nodemon -e scss -x \"npm run build\""
+  },
+  "author": "Tacnoman <renatocassino@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.2"
+  }
+}
