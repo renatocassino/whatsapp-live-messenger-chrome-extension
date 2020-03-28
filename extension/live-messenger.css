@@ -1,61 +1,55 @@
-body > div >div > div[tabindex="-1"].app {
-    flex-direction: row-reverse;
-  }
-  
-  body > div > div.app-wrapper-web:after {
-    background-image: linear-gradient(to bottom, #2bb7f6, #ffffff, #ffffff, #ffffff, #baebf1);
-    height: 100%;
-  }
-  
-  div[contenteditable="true"][data-tab="1"] {
-    min-height: 110px !important;
-  }
-  
-  #main > header {
-    height: 160px;
-    padding-top: 0px;
-    background: #58c5f2;
-    background: -moz-linear-gradient(top, #58c5f2 0%, #e7f9fd 44%, #ffffff 100%);
-    background: -webkit-linear-gradient(top, #58c5f2 0%,#e7f9fd 44%,#ffffff 100%);
-    background: linear-gradient(to bottom, #58c5f2 0%,#e7f9fd 44%,#ffffff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#58c5f2', endColorstr='#ffffff',GradientType=0 );
-  }
-  
-  /* Div around image profile in talk*/
-  #main > header > div[role="button"]:first-child > div {
-    width: 90px !important;
-    height: 90px !important;
-    background: #e9f2ef;
-    background: -moz-linear-gradient(top, #e9f2ef 0%, #9ad488 49%, #6fbd58 50%, #7fd85c 100%);
-    background: -webkit-linear-gradient(top, #e9f2ef 0%,#9ad488 49%,#6fbd58 50%,#7fd85c 100%);
-    background: linear-gradient(to bottom, #e9f2ef 0%,#9ad488 49%,#6fbd58 50%,#7fd85c 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9f2ef', endColorstr='#7fd85c',GradientType=0 );
-    padding: 0.5rem;
-    border-radius: 11px;
-  }
-  
-  #main > header > div[role="button"]:first-child > div > img {
-    border-radius: 3px;
-  }
-  
-  #main > header > div[role="button"]:first-child > div > img + div {
-    display: none;
-  }
-  
-  .app #side > div#pane-side > div > div > div > div > div > div > div:first-child > div {
-    background: #e9f2ef;
-    background: -moz-linear-gradient(top, #e9f2ef 0%, #9ad488 49%, #6fbd58 50%, #7fd85c 100%);
-    background: -webkit-linear-gradient(top, #e9f2ef 0%,#9ad488 49%,#6fbd58 50%,#7fd85c 100%);
-    background: linear-gradient(to bottom, #e9f2ef 0%,#9ad488 49%,#6fbd58 50%,#7fd85c 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9f2ef', endColorstr='#7fd85c',GradientType=0 );
-    padding: 0.3rem;
-    border-radius: 11px;
-  }
-  
-  .app #side > div#pane-side > div > div > div > div > div > div > div:first-child > div > img {
-    border-radius: 3px;
-  }
-  
-  .app #side > div#pane-side > div > div > div > div > div > div > div:first-child > div > img + div {
-    display: none;
-  }
+body > div > div > div[tabindex="-1"].app {
+  flex-direction: row-reverse; }
+
+body > div > div.app-wrapper-web:after {
+  background-image: linear-gradient(to bottom, #2bb7f6, #ffffff, #ffffff, #ffffff, #baebf1);
+  height: 100%; }
+
+div[contenteditable="true"][data-tab="1"] {
+  min-height: 110px !important; }
+
+#main > header {
+  height: 160px;
+  padding-top: 0px;
+  background: #58c5f2;
+  background: -moz-linear-gradient(top, #58c5f2 0%, #e7f9fd 44%, #ffffff 100%);
+  background: -webkit-linear-gradient(top, #58c5f2 0%, #e7f9fd 44%, #ffffff 100%);
+  background: linear-gradient(to bottom, #58c5f2 0%, #e7f9fd 44%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#58c5f2', endColorstr='#ffffff',GradientType=0 ); }
+
+/* Div around image profile in talk*/
+#main > header > div[role="button"]:first-child > div {
+  width: 90px !important;
+  height: 90px !important;
+  background: #e9f2ef;
+  background: -moz-linear-gradient(top, #e9f2ef 0%, #9ad488 49%, #6fbd58 50%, #7fd85c 100%);
+  background: -webkit-linear-gradient(top, #e9f2ef 0%, #9ad488 49%, #6fbd58 50%, #7fd85c 100%);
+  background: linear-gradient(to bottom, #e9f2ef 0%, #9ad488 49%, #6fbd58 50%, #7fd85c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9f2ef', endColorstr='#7fd85c',GradientType=0 );
+  padding: 0.5rem;
+  border-radius: 11px; }
+
+#main > header > div[role="button"]:first-child > div > img {
+  border-radius: 3px; }
+
+#main > header > div[role="button"]:first-child > div > img + div {
+  display: none; }
+
+.app #side > div#pane-side > div > div > div > div > div > div > div:first-child > div {
+  background: #e9f2ef;
+  background: -moz-linear-gradient(top, #e9f2ef 0%, #9ad488 49%, #6fbd58 50%, #7fd85c 100%);
+  background: -webkit-linear-gradient(top, #e9f2ef 0%, #9ad488 49%, #6fbd58 50%, #7fd85c 100%);
+  background: linear-gradient(to bottom, #e9f2ef 0%, #9ad488 49%, #6fbd58 50%, #7fd85c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9f2ef', endColorstr='#7fd85c',GradientType=0 );
+  padding: 0.3rem;
+  border-radius: 11px; }
+
+.app #side > div#pane-side > div > div > div > div > div > div > div:first-child > div > img {
+  border-radius: 3px; }
+
+.app #side > div#pane-side > div > div > div > div > div > div > div:first-child > div > img + div {
+  display: none; }
+
+div[data-asset-intro-image="true"] {
+  background: url(https://www.ebc.com.br/sites/_portalebc2014/files/styles/full_colunm/public/atoms_image/msnlogo.jpg?itok=moqoobCI) no-repeat;
+  background-size: cover; }

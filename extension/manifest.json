@@ -3,11 +3,16 @@
     "description" : "Theme to change Whatsapp web like a Messenger",
     "version": "1.0",
     "manifest_version": 2,
-    "permissions": ["webRequest", "webRequestBlocking", "webNavigation"],
+    "permissions": ["webRequest", "webRequestBlocking", "webNavigation", "*://web.whatsapp.com/*"],
     "content_scripts": [
         {
             "css": ["live-messenger.css"],
             "matches": ["https://web.whatsapp.com/*"]
         }
-    ]
+    ],
+    "background": {
+      "scripts": [
+        "background.js"
+      ]
+    }
 }
